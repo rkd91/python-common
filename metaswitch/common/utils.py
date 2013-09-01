@@ -44,9 +44,7 @@ import threading
 import traceback
 import phonenumbers
 import hashlib
-import bcrypt
 from urllib import quote
-from Crypto.Cipher import Blowfish
 
 _log = logging.getLogger("metaswitch.utils")
 

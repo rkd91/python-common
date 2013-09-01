@@ -52,5 +52,5 @@ setup(
     packages=find_packages('.'),
     package_dir={'':'.'},
     test_suite='metaswitch.common.test',
-    install_requires=["Mock", "py-bcrypt", "tornado"],
+    install_requires=["Mock", "tornado"],
     )
